@@ -1,3 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-ReactDOM.render(<div> Hello World! </div>, document.getElementById("app"));
+
+import AppRouter from "./routes";
+
+ReactDOM.render(<AppRouter />, document.getElementById("app"));
